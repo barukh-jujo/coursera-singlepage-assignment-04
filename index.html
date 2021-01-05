@@ -1,28 +1,25 @@
-<!doctype html>
-<html lang="en" ng-app="lunchApp">
+<!DOCTYPE html>
+<html ng-app='PageApp'>
 
 <head>
-    <title>Lunch Checker</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
     <script src="angular.min.js"></script>
-    <script src="app.js"></script>
-    <style>
-        .message {
-            font-size: 1.3em;
-            font-weight: bold;
-        }
-    </style>
+    <script src="angular-ui-router.min.js"></script>
+    <script src="categ.js"></script>
+    <script src="items.js"></script>
+    <title>My Page</title>
 </head>
 
 <body>
-    <div class="container" ng-controller="lunchCtl">
-        <h1>No assignment</h1>
+    <h1>Welcome to my page</h1>
 
+    <ui-view></ui-view>
+    <script src="menu.js"></script>
+    <script src="route.js"></script>
 
-    </div>
+    <script src="categ-controller.js"></script>
 
 </body>
-<!--Assignment by: Jonathan Capa for coursera-->
 
 </html>
