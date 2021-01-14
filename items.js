@@ -3,7 +3,7 @@
 
     angular.module('PageApp')
         .component('items', {
-            templateUrl: 'items.template',
+            templateUrl: 'items.html',
             bindings: {
                 items: '<'
             }

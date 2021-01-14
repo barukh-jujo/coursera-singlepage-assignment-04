@@ -3,7 +3,7 @@
 
     angular.module('PageApp')
         .component('category-list', {
-            templateUrl: 'cat.template',
+            templateUrl: 'cat.html',
             bindings: {
                 items: '<'
             }
