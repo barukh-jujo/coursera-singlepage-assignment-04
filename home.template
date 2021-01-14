@@ -1,4 +1,4 @@
 
-<a ui-sref="home">Home</a>|<span>Category</span>
+[<a ui-sref="home">Home</a>] <span>[<a ui-sref="catlist">Category</a>]</span>
 
-<categories items="categs.items"></categories>
+
