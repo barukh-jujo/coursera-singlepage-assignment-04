@@ -8,8 +8,8 @@
     CategoryController.$inject = ['items'];
 
     function CategoryController(items) {
-        var categs = this;
-        categs.items = items;
+        var itemsCtrl = this;
+        itemsCtrl.items = items;
     }
 
 })();

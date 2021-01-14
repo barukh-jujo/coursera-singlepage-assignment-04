@@ -18,7 +18,7 @@
             .state('catlist', {
                 url: '/category-list',
                 templateUrl: 'catlist.template',
-                controller: 'CategoryController as categs',
+                controller: 'CategoryController as itemsCtrl',
                 resolve: {
                     items: ['MenuDataService', function(MenuDataService) {
                         return MenuDataService.getAllCategories();
