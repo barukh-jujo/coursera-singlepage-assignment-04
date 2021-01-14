@@ -2,7 +2,7 @@
     'use strict';
 
     angular.module('PageApp')
-        .component('category-list', {
+        .component('categories', {
             templateUrl: 'cat.html',
             bindings: {
                 items: '<'

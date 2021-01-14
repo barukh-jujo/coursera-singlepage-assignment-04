@@ -21,12 +21,12 @@
         service.getItemsForCategory = function(categoryShortName) {
             return $http({
                 method: "GET",
-                url: (ApiBasePath + "/menu_items.json"),
+                url: (ApiBasePath + '/menu_items.json?category=' + categoryShortName),
                 params: {
                     category: categoryShortName
                 }
             }).then(function(response) {
-                return response.data;
+                return response.data.menu_items;
             });
         };
     }

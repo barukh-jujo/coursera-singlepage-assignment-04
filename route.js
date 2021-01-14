@@ -15,10 +15,10 @@
                 url: '/',
                 templateUrl: 'home.html'
             })
-            .state('catlist', {
+            .state('category', {
                 url: '/category',
                 templateUrl: 'catlist.html',
-                controller: 'CategoryController as itemsCtrl',
+                controller: 'CategoryController as catCtrl',
                 resolve: {
                     items: ['MenuDataService', function(MenuDataService) {
                         return MenuDataService.getAllCategories();
